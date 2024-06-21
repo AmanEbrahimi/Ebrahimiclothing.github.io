@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav li{
+    font-family:Helvetica;
+    text-align:relative;
+    list-style:none;
+    display: inline-flex;
+    margin: 15px;
+    margin-left: 25px;
+
+
+}
+nav{
+    display: inline-flex;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(19, 22, 78);
+    width: 100%;
+}
+header{
+    background-image: url(../Images/banner1.jpg);
+    font-family: Helvetica;
+    font-weight: bold;
+    position: relative;
+    top: 55px;
+    text-align: center;
+
+}
+body{
+    background-image: url("../Images/backgr.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+}
+main{
+    font-family:sans-sarif;
+    text-align:center;
+}
+h3{
+    margin: 25px;
+}
+.female{
+    font-family: Helvetica;
+    text-align:center;
+    font-weight: bold;
+}
+.male{
+    font-family: Helvetica;
+    text-align:center;
+    font-weight: bold;
+}
+.descrip li{
+    border: 3px solid white;
+    border-radius: 15px;
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    background-color:darkgray;
+    margin-left: 15px;
+    margin-top: 90px;
+    
+}
+li{
+    list-style: none;
+}
+.nav li a{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.contacts li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.more ul li{
+    display: inlien-block;
+}
+.social li a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer ul li{
+    display: inline-block;
+    border: 2px solid darkgrey;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color:darkgrey;
+    color: white;
+    margin: 20px 20px;
+    margin-left: 30px;
+
+}
+footer ul :hover{
+    background-color: black;
+}
+footer p{
+    margin-left: 25px;
+    font-family: sans-serif;
+}
